@@ -1,20 +1,28 @@
 <template>
-	<div class="game-box">
-		<QuestionBox></QuestionBox>
+	<div class="question-box">
+		<QuestionMain>
+			<QuestionBox></QuestionBox>
+		</QuestionMain>
+
+		<AnswerList>
+			<AnswerOption></AnswerOption>
+		</AnswerList>
 	</div>
 </template>
 
 <style scoped>
-.game-box {
+.question-box {
 	display: flex;
-
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
 	height: 80%;
 	width: 60%;
 
-	background-color: #78290f;
+	background-color: #561050;
 	/* #78290f */
 	border-radius: 23px;
-	box-shadow: 2px 5px 5px #ff7d00;
-	justify-content: center;
+	box-shadow: 2px 5px 5px #7f669d;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 </style>

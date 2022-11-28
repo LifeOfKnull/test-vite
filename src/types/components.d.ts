@@ -7,17 +7,22 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    AnswerList: typeof import('./../components/AnswerList.vue')['default']
-    AnswerOption: typeof import('./../components/AnswerOption.vue')['default']
+    AnswerList: typeof import('./../components/Answer/List.vue')['default']
+    AnswerOption: typeof import('./../components/Answer/Option.vue')['default']
     GameBox: typeof import('./../components/GameBox.vue')['default']
     MainNavigation: typeof import('./../components/MainNavigation.vue')['default']
     NavigationItem: typeof import('./../components/Navigation/Item.vue')['default']
     NavigationMain: typeof import('./../components/Navigation/Main.vue')['default']
     NavigationSidebarLink: typeof import('./../components/Navigation/SidebarLink.vue')['default']
     NavigationSidebarMain: typeof import('./../components/Navigation/SidebarMain.vue')['default']
-    Question: typeof import('../components/QuestionPrompt.vue')['default']
-    QuestionBox: typeof import('./../components/QuestionBox.vue')['default']
-    QuestionPrompt: typeof import('./../components/QuestionPrompt.vue')['default']
+    Question: typeof import../components/Answer/Option.vueompt.vue')['default']
+    QuestionBox: typeof import('./../components/Question/Box.vue')['default']
+    QuestionMain: typeof import('./../components/Question/Main.vue')['default']
+    QuestionProblem: typeof import('./../components/Question/Problem.vue')['default']
+    QuestionPrompt: typeof import('./../components/Question/Prompt.vue')['default']
+    QuestionQuestionBox: typeof import('./../components/Question/QuestionBox.vue')['default']
+    QuestionQuestionPrompt: typeof import('./../components/Question/QuestionPrompt.vue')['default']
+    QuestionScore: typeof import('./../components/Question/Score.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

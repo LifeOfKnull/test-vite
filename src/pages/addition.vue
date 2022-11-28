@@ -1,3 +1,3 @@
 <template>
-	<GameBox><QuestionBox> </QuestionBox></GameBox>
+	<GameBox />
 </template>

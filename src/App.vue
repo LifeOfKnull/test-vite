@@ -21,6 +21,6 @@ body,
 	box-sizing: border-box;
 }
 body {
-	background-color: #ffecd1;
+	background-color: #533483;
 }
 </style>
